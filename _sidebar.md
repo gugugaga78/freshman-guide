@@ -16,6 +16,7 @@
   - [课程介绍](academic/courses.md)
   - [选课建议](academic/selection.md)
   - [考试与绩点](academic/exams.md)
+  - [📦 课程攻略仓库](https://royfor12.github.io/CQUT-Course-Guide-Sharing-Scheme/)
 
 - 🍜 **生活指南**
   - [周边美食](life/food.md)
