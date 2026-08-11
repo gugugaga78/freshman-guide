@@ -7,10 +7,11 @@
 <div align="center">
 
 <a href="assets/campus-map-real.jpg" target="_blank">
-  <img src="assets/campus-map-real.jpg" alt="校园地图" style="max-width:100%; border-radius:12px; cursor:zoom-in;" />
+  <img src="assets/campus-map-real.jpg" alt="校园地图" 
+       style="display:block; width:100%; max-width:800px; margin:0 auto; border-radius:12px; cursor:zoom-in;" />
 </a>
 
-> 📍 点击地图可查看大图 | 标注校园各设施位置
+> 📍 点击地图可查看大图 ｜ [如无法显示请点这里](assets/campus-map-real.jpg)
 
 </div>
 
