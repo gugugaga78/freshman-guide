@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="road" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="50%" stop-color="#2a2a3e"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6c5ce7"/>
+      <stop offset="100%" stop-color="#00cec9"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="700" rx="16" fill="#0f0f1a" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.03">
+    <line x1="0" y1="0" x2="1000" y2="0" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="100" x2="1000" y2="100" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="200" x2="1000" y2="200" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="300" x2="1000" y2="300" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="400" x2="1000" y2="400" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="500" x2="1000" y2="500" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="600" x2="1000" y2="600" stroke="#fff" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="700" stroke="#fff" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="700" stroke="#fff" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="700" stroke="#fff" stroke-width="0.5"/>
+    <line x1="800" y1="0" x2="800" y2="700" stroke="#fff" stroke-width="0.5"/>
+  </g>
+
+  <!-- Main Road (林荫大道) -->
+  <rect x="460" y="0" width="80" height="700" fill="url(#road)" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+  <!-- Horizontal road -->
+  <rect x="0" y="300" width="1000" height="40" fill="url(#road)" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+  <!-- ====== BUILDINGS ====== -->
+
+  <!-- 三号门 (Main Gate) - bottom -->
+  <g filter="url(#softShadow)">
+    <rect x="460" y="620" width="80" height="60" rx="8" fill="rgba(108,92,231,0.15)" stroke="#6c5ce7" stroke-width="2"/>
+    <text x="500" y="645" text-anchor="middle" fill="#00cec9" font-size="13" font-weight="700" filter="url(#glow)">🚪</text>
+    <text x="500" y="665" text-anchor="middle" fill="#e8e8f0" font-size="11" font-weight="600">三号门</text>
+  </g>
+
+  <!-- 大门外道路标注 -->
+  <text x="500" y="695" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="9">红光大道 →</text>
+
+  <!-- 管理学院 (left side) -->
+  <g filter="url(#softShadow)">
+    <rect x="100" y="100" width="140" height="90" rx="10" fill="rgba(108,92,231,0.1)" stroke="rgba(108,92,231,0.3)" stroke-width="1.5"/>
+    <rect x="100" y="100" width="140" height="24" rx="10" fill="rgba(108,92,231,0.2)"/>
+    <rect x="100" y="114" width="140" height="10" fill="rgba(108,92,231,0.2)"/>
+    <text x="170" y="140" text-anchor="middle" fill="#e8e8f0" font-size="12" font-weight="700">📊</text>
+    <text x="170" y="160" text-anchor="middle" fill="#e8e8f0" font-size="11">管理学院</text>
+    <text x="170" y="178" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="9">数智管理</text>
+  </g>
+
+  <!-- 中山图书馆 (top right) -->
+  <g filter="url(#softShadow)">
+    <rect x="580" y="60" width="160" height="100" rx="10" fill="rgba(0,206,201,0.08)" stroke="rgba(0,206,201,0.3)" stroke-width="1.5"/>
+    <rect x="580" y="60" width="160" height="24" rx="10" fill="rgba(0,206,201,0.15)"/>
+    <rect x="580" y="74" width="160" height="10" fill="rgba(0,206,201,0.15)"/>
+    <text x="660" y="105" text-anchor="middle" fill="#00cec9" font-size="13" font-weight="700">📖</text>
+    <text x="660" y="125" text-anchor="middle" fill="#e8e8f0" font-size="11">中山图书馆</text>
+    <text x="660" y="143" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="9">8:00-22:00</text>
+  </g>
+
+  <!-- 体育场 (right side) -->
+  <g filter="url(#softShadow)">
+    <ellipse cx="780" cy="400" rx="120" ry="60" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+    <ellipse cx="780" cy="400" rx="80" ry="40" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1" stroke-dasharray="5 3"/>
+    <text x="780" y="395" text-anchor="middle" fill="#e8e8f0" font-size="13" font-weight="700">🏟️</text>
+    <text x="780" y="415" text-anchor="middle" fill="#e8e8f0" font-size="10">体育场</text>
+    <text x="780" y="440" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="9">开学典礼 · 军训</text>
+  </g>
+
+  <!-- 学生活动中心 -->
+  <g filter="url(#softShadow)">
+    <rect x="580" y="380" width="120" height="80" rx="8" fill="rgba(108,92,231,0.06)" stroke="rgba(108,92,231,0.2)" stroke-width="1"/>
+    <text x="640" y="415" text-anchor="middle" fill="#e8e8f0" font-size="11">🎪</text>
+    <text x="640" y="435" text-anchor="middle" fill="#e8e8f0" font-size="10">学生活动中心</text>
+  </g>
+
+  <!-- 食堂 (left bottom) -->
+  <g filter="url(#softShadow)">
+    <rect x="100" y="350" width="100" height="70" rx="8" fill="rgba(108,92,231,0.06)" stroke="rgba(108,92,231,0.2)" stroke-width="1"/>
+    <text x="150" y="380" text-anchor="middle" fill="#e8e8f0" font-size="11">🍽️</text>
+    <text x="150" y="400" text-anchor="middle" fill="#e8e8f0" font-size="10">食堂</text>
+  </g>
+
+  <!-- 宿舍区 (left) -->
+  <g filter="url(#softShadow)">
+    <rect x="100" y="450" width="150" height="50" rx="8" fill="rgba(0,206,201,0.06)" stroke="rgba(0,206,201,0.2)" stroke-width="1"/>
+    <text x="175" y="480" text-anchor="middle" fill="#e8e8f0" font-size="11">🛏️ 学生宿舍区</text>
+  </g>
+
+  <!-- 快递点 (near gate) -->
+  <g filter="url(#softShadow)">
+    <rect x="580" y="530" width="120" height="50" rx="8" fill="rgba(108,92,231,0.05)" stroke="rgba(108,92,231,0.15)" stroke-width="1"/>
+    <text x="640" y="558" text-anchor="middle" fill="#e8e8f0" font-size="10">📦 快递街</text>
+  </g>
+
+  <!-- 蝴蝶山 (保卫处) -->
+  <g filter="url(#softShadow)">
+    <path d="M300,200 Q330,160 360,200 L350,220 L310,220 Z" fill="rgba(0,206,201,0.08)" stroke="rgba(0,206,201,0.2)" stroke-width="1"/>
+    <text x="330" y="215" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="8">🦋 蝴蝶山</text>
+  </g>
+
+  <!-- 明德楼 -->
+  <g filter="url(#softShadow)">
+    <rect x="250" y="130" width="80" height="50" rx="6" fill="rgba(108,92,231,0.05)" stroke="rgba(108,92,231,0.15)" stroke-width="1"/>
+    <text x="290" y="160" text-anchor="middle" fill="#e8e8f0" font-size="9">明德楼</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(20,20)">
+    <rect x="0" y="0" width="200" height="80" rx="10" fill="rgba(0,0,0,0.4)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="100" y="20" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">图例</text>
+    <line x1="15" y1="35" x2="40" y2="35" stroke="#6c5ce7" stroke-width="2"/>
+    <text x="50" y="39" fill="rgba(255,255,255,0.5)" font-size="9">教学/办公</text>
+    <line x1="15" y1="52" x2="40" y2="52" stroke="#00cec9" stroke-width="2"/>
+    <text x="50" y="56" fill="rgba(255,255,255,0.5)" font-size="9">生活/服务</text>
+    <line x1="15" y1="69" x2="40" y2="69" stroke="rgba(255,255,255,0.15)" stroke-width="2" stroke-dasharray="4 2"/>
+    <text x="50" y="73" fill="rgba(255,255,255,0.5)" font-size="9">运动场所</text>
+  </g>
+
+  <!-- Disclaimer -->
+  <text x="500" y="15" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="9">※ 示意图，实际布局以校园导览为准</text>
+</svg>
