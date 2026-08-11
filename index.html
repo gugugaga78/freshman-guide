@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>数智管理 · 迎新指南</title>
+  <meta name="description" content="重庆理工大学数智管理专业迎新知识库 — 宿舍、教学楼、课程、美食、周边，你想知道的都在这里！">
+
+  <!-- Docsify 核心 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
+  <!-- 自定义玻璃拟态主题 -->
+  <link rel="stylesheet" href="assets/theme.css">
+</head>
+<body>
+  <div id="app">加载中…</div>
+
+  <script>
+    window.$docsify = {
+      name: '🎓 数智管理 · 迎新指南',
+      repo: '',  // 填上你的 GitHub 仓库地址后会自动显示右上角 GitHub 链接
+      loadSidebar: true,
+      loadNavbar: false,
+      coverpage: false,
+      maxLevel: 3,
+      subMaxLevel: 2,
+      auto2top: true,
+      search: {
+        placeholder: '🔍 搜索你想知道的...',
+        noData: '😢 没找到相关内容，试试别的关键词？',
+        depth: 4
+      },
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md',
+      },
+      // 页面路由
+      homepage: 'README.md',
+      notFoundPage: '_404.md',
+    };
+  </script>
+
+  <!-- Docsify 插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+
+</body>
+</html>
