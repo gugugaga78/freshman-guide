@@ -4,9 +4,13 @@
 
 ---
 
-![校园地图](assets/campus-map-real.jpg)
+<div align="center">
 
-> 📍 标注地图，点击可放大查看
+[![校园地图](assets/campus-map-real.jpg)](assets/campus-map-real.jpg)
+
+> 📍 点击地图可查看大图 | 标注校园各设施位置
+
+</div>
 
 ---
 
