@@ -8,6 +8,7 @@
 
 - 🏫 **校园设施**
   - [🗺️ 校园地图](campus/map.md)
+  - [📡 情报速递](campus/intel.md)
   - [宿舍指南](campus/dorms.md)
   - [教学楼分布](campus/teaching.md)
   - [图书馆攻略](campus/library.md)
