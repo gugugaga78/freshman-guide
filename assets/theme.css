@@ -301,6 +301,8 @@ section.cover::before {
     radial-gradient(circle at 80% 70%, rgba(0, 206, 201, 0.06) 0%, transparent 50%),
     radial-gradient(circle at 50% 50%, rgba(108, 92, 231, 0.03) 0%, transparent 70%);
   animation: coverPulse 8s ease-in-out infinite alternate;
+  pointer-events: none;
+  z-index: 0;
 }
 
 @keyframes coverPulse {
@@ -318,6 +320,14 @@ section.cover::after {
     linear-gradient(90deg, rgba(108, 92, 231, 0.03) 1px, transparent 1px);
   background-size: 60px 60px;
   animation: gridMove 20s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* 确保封面内容在装饰层上方、可点击 */
+section.cover .cover-main {
+  position: relative;
+  z-index: 1;
 }
 
 @keyframes gridMove {
