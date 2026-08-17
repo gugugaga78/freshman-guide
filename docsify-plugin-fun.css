@@ -1,0 +1,95 @@
+/* docsify-plugin-fun.css — 趣味功能样式（倒计时/随机推荐/清单/BTI） */
+
+/* ============ 倒计时卡片 ============ */
+.countdown-card {
+  background: linear-gradient(135deg, #0071e3, #2997ff);
+  color: #fff;
+  border-radius: 16px;
+  padding: 28px 24px;
+  text-align: center;
+  margin: 18px 0;
+  box-shadow: 0 8px 24px rgba(0, 113, 227, 0.25);
+}
+.countdown-card .countdown-label { font-size: 14px; opacity: 0.85; letter-spacing: 0.08em; }
+.countdown-card .countdown-num { font-size: 40px; font-weight: 700; margin-top: 6px; letter-spacing: -0.02em; }
+.countdown-card .countdown-num .countdown { font-size: 56px; font-variant-numeric: tabular-nums; }
+
+/* ============ 今天吃什么 ============ */
+.food-picker {
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 16px;
+  padding: 26px 24px;
+  text-align: center;
+  margin: 18px 0;
+}
+.food-picker #food-picker-result { font-size: 22px; margin-bottom: 16px; min-height: 56px; }
+.food-picker #food-picker-result span { font-size: 14px; opacity: 0.6; }
+.food-picker .btn {
+  display: inline-block;
+  background: #0071e3;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 32px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.15s, background 0.2s;
+}
+.food-picker .btn:hover { background: #0077ed; }
+.food-picker .btn:active { transform: scale(0.96); }
+
+/* ============ 入学清单 Checklist ============ */
+.checklist-progress {
+  margin: 16px 0 20px;
+}
+.checklist-progress .bar {
+  height: 8px; background: rgba(0,0,0,0.08); border-radius: 999px; overflow: hidden;
+}
+.checklist-progress .bar .fill {
+  height: 100%; width: 0; background: #34c759; border-radius: 999px; transition: width 0.3s;
+}
+.checklist-progress .txt { font-size: 13px; opacity: 0.6; margin-top: 6px; }
+.checklist .group-title { font-weight: 700; font-size: 16px; margin: 22px 0 8px; }
+.checklist label {
+  display: flex; align-items: flex-start; gap: 10px;
+  padding: 10px 12px; border-radius: 10px; cursor: pointer;
+  transition: background 0.15s;
+}
+.checklist label:hover { background: rgba(0,0,0,0.04); }
+.checklist input[type="checkbox"] {
+  width: 18px; height: 18px; margin-top: 2px; accent-color: #0071e3; flex-shrink: 0; cursor: pointer;
+}
+.checklist input[type="checkbox"]:checked + span { text-decoration: line-through; opacity: 0.45; }
+
+/* ============ 西唯兵 BTI 测试 ============ */
+.bti-test {
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 16px;
+  padding: 26px 24px;
+  margin: 18px 0;
+}
+.bti-progress { font-size: 13px; opacity: 0.55; margin-bottom: 14px; letter-spacing: 0.05em; }
+.bti-q { font-size: 20px; font-weight: 700; margin-bottom: 18px; line-height: 1.5; }
+.bti-opts { display: flex; flex-direction: column; gap: 12px; }
+.bti-opt {
+  text-align: left; background: #fff; border: 1.5px solid rgba(0,0,0,0.08);
+  border-radius: 12px; padding: 14px 16px; font-size: 16px; cursor: pointer;
+  transition: border-color 0.15s, background 0.15s, transform 0.1s;
+}
+.bti-opt:hover { border-color: #0071e3; background: #f0f7ff; }
+.bti-opt:active { transform: scale(0.98); }
+.bti-result { text-align: center; padding: 10px 0; }
+.bti-icon { font-size: 64px; margin-bottom: 10px; }
+.bti-name { font-size: 30px; font-weight: 700; letter-spacing: -0.02em; }
+.bti-desc { font-size: 15px; opacity: 0.65; line-height: 1.7; margin: 14px auto 20px; max-width: 420px; }
+.bti-restart {
+  background: #0071e3; color: #fff; border: none; border-radius: 999px;
+  padding: 11px 30px; font-size: 15px; cursor: pointer;
+}
+.bti-restart:hover { background: #0077ed; }

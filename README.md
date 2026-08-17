@@ -14,6 +14,15 @@
 
 ---
 
+## ⏰ 距报到还有
+
+<div class="countdown-card">
+  <div class="countdown-label">距离 9月2日 报到还有</div>
+  <div class="countdown-num"><span class="countdown">--</span> 天</div>
+</div>
+
+---
+
 ## 🗓️ 重要时间速览
 
 | 日期 | 事项 |

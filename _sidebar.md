@@ -25,6 +25,11 @@
   - [校内好去处](life/fun.md)
   - [免费设施 & 数字校园](life/facilities.md)
 
+- 🎮 **趣味互动**
+  - [🍜 今天吃什么](fun/food.md)
+  - [✅ 入学准备清单](fun/checklist.md)
+  - [🎲 西唯兵 BTI 测试](fun/bti.md)
+
 - 🎯 **专业特色**
   - [数智管理是什么](major/intro.md)
   - [就业与发展](major/career.md)
