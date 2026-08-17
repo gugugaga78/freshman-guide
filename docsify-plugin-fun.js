@@ -93,21 +93,22 @@
     aoye:     { icon: '🌙', code: 'AO-YE', name: '熬夜冠军', dim: '校园', quote: '凌晨三点，才是我的高光时刻。' },
     zaoba:    { icon: '🌅', code: 'ZAO-BA', name: '早八战士', dim: '校园', quote: '早八全勤，但魂还没醒。' },
     // 美食
-    weilong:  { icon: '🐉', code: 'WEI-LONG', name: '威龙本龙', dim: '美食', quote: '操作拉满，我就是威龙。' },
-    weichong: { icon: '🐛', code: 'WEI-CHONG', name: '威虫本虫', dim: '美食', quote: '菜就菜吧，威虫也有虫的快乐。' },
+    weilong:  { icon: '🐉', code: 'WEI-LONG', name: '威龙本龙', dim: '美食', img: 'assets/memes/weilong.jpg', quote: '操作拉满，我就是威龙。' },
+    weichong: { icon: '🐛', code: 'WEI-CHONG', name: '威虫本虫', dim: '美食', img: 'assets/memes/weilong.jpg', quote: '菜就菜吧，威虫也有虫的快乐。' },
     moyu:     { icon: '🐟', code: 'MO-YU', name: '摸鱼怪', dim: '美食', quote: '人在教室，魂在B站，鱼都摸麻了。' },
     // 八卦/社交
     bagua:    { icon: '📢', code: 'BA-GUA', name: '八卦精', dim: '八卦', quote: '校园没有我不知道的秘密，情报局局长。' },
     sheniu:   { icon: '🎉', code: 'SHE-NIU', name: '社牛', dim: '八卦', quote: '社交恐怖分子，路过条狗都能聊两句。' },
     shekong:  { icon: '🤐', code: 'SHE-KONG', name: '社恐', dim: '八卦', quote: '别找我，我社恐，手机是唯一的朋友。' },
-    malou:    { icon: '🐒', code: 'MA-LOU', name: '吗喽', dim: '八卦', quote: '人生是副本，我是重理工的吗喽。' },
+    malou:    { icon: '🐒', code: 'MA-LOU', name: '吗喽', dim: '八卦', img: 'assets/memes/malou.jpg', quote: '人生是副本，我是重理工的吗喽。' },
     // 抽象梗
-    niulai:   { icon: '🐮', code: 'NIU-LAI', name: '牛来者', dim: '抽象', quote: '牛来！我就是那个传说中的人。' },
-    nailong:  { icon: '🦖', code: 'NAI-LONG', name: '奶龙信徒', dim: '抽象', quote: '发奶龙的都是低智？那我第一个发。' },
-    guguga:   { icon: '🐧', code: 'GUGU-GAGA', name: '咕咕嘎嘎', dim: '抽象', quote: '咕咕嘎嘎！我的语言只有这一句。' },
-    yegou:    { icon: '🐶', code: 'YE-GOU', name: '野生狗奶', dim: '抽象', quote: '我的精神状态，就像野生狗奶一样抽象。' },
-    xiongda:  { icon: '🐻', code: 'XIONG-DA', name: '熊大回眸', dim: '抽象', quote: '回眸一笑百媚生，然后继续 emo。' },
-    haonv:    { icon: '👧', code: 'HAO-NV', name: '好女孩', dim: '抽象', quote: '我是好女孩，真的，信我。' },
+    niulai:   { icon: '🐮', code: 'NIU-LAI', name: '牛来者', dim: '抽象', img: 'assets/memes/niulai.jpg', quote: '牛来！我就是那个传说中的人。' },
+    nailong:  { icon: '🦖', code: 'NAI-LONG', name: '奶龙信徒', dim: '抽象', img: 'assets/memes/nailong.png', quote: '发奶龙的都是低智？那我第一个发。' },
+    guguga:   { icon: '🐧', code: 'GUGU-GAGA', name: '咕咕嘎嘎', dim: '抽象', img: 'assets/memes/guguga.jpg', quote: '咕咕嘎嘎！我的语言只有这一句。' },
+    yegou:    { icon: '🐶', code: 'YE-GOU', name: '野生狗奶', dim: '抽象', img: 'assets/memes/yegou.png', quote: '我的精神状态，就像野生狗奶一样抽象。' },
+    xiongda:  { icon: '🐻', code: 'XIONG-DA', name: '熊大回眸', dim: '抽象', img: 'assets/memes/xiongda.jpg', quote: '回眸一笑百媚生，然后继续 emo。' },
+    dagoujiao:{ icon: '🐕', code: 'DA-GOU-JIAO', name: '大狗叫', dim: '抽象', img: 'assets/memes/dagoujiao.jpg', quote: '大狗大狗叫叫叫，难绷就完事了。' },
+    maodie:   { icon: '🐱', code: 'MAO-DIE', name: '耄耋', dim: '抽象', img: 'assets/memes/maodie.jpg', quote: '圆头耄耋，哈气就完了。' },
     bazhi:    { icon: '🗿', code: 'BA-ZHI', name: '霸之意志', dim: '抽象', quote: '霸之意志：期末不挂科。' },
     nanbeng:  { icon: '💢', code: 'NAN-BENG', name: '难绷者', dim: '抽象', quote: '难绷，这个世界真的难绷。' }
   };
@@ -178,20 +179,20 @@
       { t: 'B. 及格就行，别耽误我学习', s: 'juanwang' },
       { t: 'C. 能躲就躲，不能就慢跑', s: 'tangping' },
       { t: 'D. 跑完躺平，emo了', s: 'nanbeng' } ]},
-    { q: '有人问你"是好人吗"？', opts: [
-      { t: 'A. 我是好女孩，真的，信我', s: 'haonv' },
-      { t: 'B. 咕咕嘎嘎', s: 'guguga' },
-      { t: 'C. 难绷', s: 'nanbeng' },
-      { t: 'D. 吗喽不语，只露出一丝苦笑', s: 'malou' } ]},
+    { q: '刷到"大狗叫"视频，你？', opts: [
+      { t: 'A. 跟着叫，大狗大狗叫叫叫', s: 'dagoujiao' },
+      { t: 'B. 圆头耄耋，哈气就完了', s: 'maodie' },
+      { t: 'C. 咕咕嘎嘎', s: 'guguga' },
+      { t: 'D. 难绷', s: 'nanbeng' } ]},
     { q: '看到"熊大回眸"梗，你？', opts: [
       { t: 'A. 回眸一笑百媚生，然后继续emo', s: 'xiongda' },
       { t: 'B. 抽象，难绷', s: 'nanbeng' },
       { t: 'C. 咕咕嘎嘎', s: 'guguga' },
-      { t: 'D. 无感，继续躺平', s: 'tangping' } ]},
+      { t: 'D. 大狗大狗叫叫叫', s: 'dagoujiao' } ]},
     { q: '你的精神状态最像？', opts: [
       { t: 'A. 野生狗奶，抽象得一批', s: 'yegou' },
       { t: 'B. 吗喽，打工魂', s: 'malou' },
-      { t: 'C. 躺平，佛系', s: 'tangping' },
+      { t: 'C. 圆头耄耋，哈气躺平', s: 'maodie' },
       { t: 'D. 卷，焦虑', s: 'juanwang' } ]},
     { q: '早八 vs 熬夜，你是？', opts: [
       { t: 'A. 早八战士，雷打不动', s: 'zaoba' },
@@ -247,9 +248,12 @@
         if (score[k] > max) { max = score[k]; best = k; }
       });
       var r = PERSONAS[best];
+      var head = r.img
+        ? '<img class="bti-img" src="' + r.img + '" alt="' + r.name + '">'
+        : '<div class="bti-icon">' + r.icon + '</div>';
       box.innerHTML =
         '<div class="bti-result">' +
-        '<div class="bti-icon">' + r.icon + '</div>' +
+        head +
         '<div class="bti-code">' + r.code + '</div>' +
         '<div class="bti-name">' + r.name + '</div>' +
         '<div class="bti-quote">「' + r.quote + '」</div>' +
