@@ -4,7 +4,7 @@
 
 ## 🔗 总入口
 
-- **课程共享计划主页**（推荐，国内加速）：<https://rv.ciallichannel.com>
+- **课程共享计划主页**（国内加速镜像，如打不开请用下方 GitHub Pages 版）：<https://rv.ciallichannel.com>
 - GitHub Pages 版：<https://royfor12.github.io/CQUT-Course-Guide-Sharing-Scheme/>
 - GitHub 仓库：<https://github.com/royfor12/CQUT-Course-Guide-Sharing-Scheme>
 

@@ -4,7 +4,7 @@
 
 - 🆕 **报到指南**
   - [报到流程 & 时间表](campus/teaching.md)
-  - [携带物品清单](campus/dorms.md)
+  - [携带物品清单](fun/checklist.md)
 
 - 🏫 **校园设施**
   - [🗺️ 校园地图](campus/map.md)
